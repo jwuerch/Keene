@@ -51,11 +51,25 @@
     p {
       margin-bottom:20px;
     }
+
   }
 }
 
 .team-below {
 
   img {
+  }
+}
+@media (max-width:767px) {
+  #meet-the-team {
+    h2 {
+      font-size:36px;
+    }
+    h3 {
+      font-size:24px;
+    }
+    h5 {
+      font-size:20px;
+    }
   }
 }

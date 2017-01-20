@@ -26447,6 +26447,28 @@ h4.modal-title {
     #meet-the-team p {
       margin-bottom: 20px; } }
 
+@media (max-width: 767px) {
+  #meet-the-team h2 {
+    font-size: 36px; }
+  #meet-the-team h3 {
+    font-size: 24px; }
+  #meet-the-team h5 {
+    font-size: 20px; } }
+
+#logo-carousel {
+  padding: 20px; }
+  #logo-carousel img {
+    width: 40%;
+    margin: 0 auto; }
+  #logo-carousel .owl-dots {
+    display: none; }
+  #logo-carousel .teeth {
+    max-width: 85px;
+    max-height: 65px; }
+  #logo-carousel .owl-stage {
+    display: flex;
+    align-items: center; }
+
 h1 {
   font-size: 64px; }
 

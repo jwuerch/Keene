@@ -1,0 +1,21 @@
+#logo-carousel {
+  padding:20px;
+  img {
+    width:40%;
+    margin:0 auto;
+
+  }
+
+  .owl-dots {
+    display:none;
+  }
+  .teeth {
+    max-width:85px;
+    max-height:65px;
+  }
+  .owl-stage {
+    display:flex;
+    align-items:center;
+  }
+}
+
