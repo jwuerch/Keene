@@ -1,0 +1,39 @@
+#tour {
+  padding:30px;
+  .row {
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+  .col-1, .col-2 {
+
+  }
+  h2 {
+    /* Office Tour: */
+    font-family: $oswald;
+    font-weight:400;
+    font-size: 48px;
+    color: #1B61A7;
+    letter-spacing: 0;
+  }
+  p {
+    font-family: $muli;
+    font-weight:400;
+    font-size: 16px;
+    color: #585756;
+    letter-spacing: -0.23px;
+    line-height: 27px;
+  }
+  .button {
+    width:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    @media (max-width:767px) {
+      width:250px;
+      font-size:16px;
+      margin:0 auto;
+      margin-bottom:30px;
+    }
+  }
+}
