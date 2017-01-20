@@ -1,0 +1,43 @@
+#reviews {
+  padding:50px;
+  background:url('../images/reviews-bg.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  h2 {
+    font-family: $oswald;
+    font-weight:400;
+    font-size: 42px;
+    color: #1B61A7;
+    letter-spacing: -0.72px;
+    line-height: 45.77px;
+    margin-bottom:50px;
+  }
+  .bf-dv {
+    margin-top:50px !important;
+    color:#FFF !important;
+    font-family: $muli !important;
+    font-size: 14px !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.80) !important;
+    .bf-pwr {
+      color:#FFF !important;
+      font-family: $muli !important;
+      font-size: 14px !important;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.80) !important;
+    }
+  }
+  .bf-pwr {
+    font-size:14px !important;
+  }
+  #bf-revz-widget-352737118 > div > span > a {
+    color:#FFF !important;
+    font-family: $muli !important;
+    font-size: 12px !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.80) !important;
+  }
+  iframe {
+    @media (max-width:600px) {
+      max-height:450px !important;
+    }
+  }
+}
