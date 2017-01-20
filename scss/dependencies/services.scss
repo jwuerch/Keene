@@ -44,6 +44,12 @@
     letter-spacing: 0;
     top:-200px;
     position:relative;
+    @media (max-width:1200px) {
+      top:0;
+    }
+    @media (max-width:500px) {
+      font-size:48px;
+    }
   }
 
 }

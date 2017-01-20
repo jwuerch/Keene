@@ -32,31 +32,31 @@
             <!-- Logo
             ============================================= -->
             <div id="logo">
-                <a href="#" data-scrollto="#header" class="standard-logo"><img src="images/keene-logo.svg" alt="Lyke Logo"></a>
+                <a href="#" data-scrollto="#header" class="standard-logo"><img src="images/keene-logo.svg" alt="Keene Logo"></a>
                 <a href="#" data-scrollto="#header" class="retina-logo"><img src="images/keene-logo.svg"
-                                                                             alt="Lyke Logo"></a>
+                                                                             alt="Keene Logo"></a>
             </div><!-- #logo end -->
 
             <!-- Primary Navigation
             ============================================= -->
             <nav id="primary-menu">
                 <ul class="navbar">
-                    <li class="current"><a href="#" data-scrollto="#fall-specials" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#specials" data-offset="60">
                         <div class="">New Patient Offers</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#no-insurance" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#reviews" data-offset="60">
                         <div class="">Reviews</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#patient-reviews" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#no-insurance" data-offset="60">
                         <div class="">No Insurance?</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#meet-your-dental-team" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#tour" data-offset="60">
                         <div>Tour</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#office-tour" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#services-1" data-offset="60">
                         <div>Services</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#services" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#patient-forms" data-offset="60">
                         <div>Forms</div>
                     </a></li>
                     <li class="current"><a href="#" data-scrollto="#contact" data-offset="60">
@@ -65,25 +65,25 @@
                 </ul>
 
                 <ul class="mobile-primary-menu navbar">
-                    <li class="current"><a href="#" data-scrollto="#fall-specials" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#specials" data-offset="0">
                         <div class="">New Patient Offers</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#no-insurance" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#reviews" data-offset="0">
                         <div class="">Reviews</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#patient-reviews" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#no-insurance" data-offset="0">
                         <div class="">No Insurnace?</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#meet-your-dental-team" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#tour" data-offset="0">
                         <div>Tour</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#office-tour" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#services-1" data-offset="0">
                         <div>Services</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#services" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#patient-forms" data-offset="0">
                         <div>Forms</div>
                     </a></li>
-                    <li class="current"><a href="#" data-scrollto="#contact" data-offset="60">
+                    <li class="current"><a href="#" data-scrollto="#contact" data-offset="0">
                         <div>Location</div>
                     </a></li>
                 </ul>
@@ -113,7 +113,7 @@
                             </div>
                             <div data-caption-animate="fadeInUp" data-caption-delay="200" class="new-patients">
                                 <h6>NOW WELCOMING NEW PATIENTS</h6>
-                                <a class="button">NEW PATIENT OFFERS</a>
+                                <a class="button" data-scrollto="#specials" data-offset="60" href="#">NEW PATIENT OFFERS</a>
                             </div>
                         </div>
                     </div>
@@ -143,17 +143,20 @@
                                 <h2 data-caption-animate="fadeInUp" data-caption-delay="200">No <span class="green">Insurance?</span></h2>
                                 <h5 data-caption-animate="fadeInUp" data-caption-delay="200">Our patients don't need it!</h5>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Get your preventive care<br>for a low monthly fee.</p>
-                                <div class="btn-wrap"  data-caption-animate="fadeInUp" data-caption-delay="200"><a class="button">LEARN MORE</a></div>
+                                <div class="btn-wrap"  data-caption-animate="fadeInUp" data-caption-delay="200"><a class="button" href="#" data-scrollto="#no-insurance" data-offset="60">LEARN MORE</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <a href="#" data-scrollto="#phone-slug-1-non-mobile" data-offset="60" class="one-page-arrow">
+                <i class="icon-angle-down infinite animated bounce"></i>
+            </a>
         </div>
     </div>
 </section>
     <div class="mobile-slider hidden-lg hidden-md">
-        <img src="images/keene-slide-mobile.jpg" alt="Mobile Slider">
+        <a href="#" data-scrollto="#specials" data-offset="0"><img src="images/keene-slide-mobile.jpg" alt="Mobile Slider"></a>
     </div>
 <div class="clear"></div>
 
@@ -289,7 +292,7 @@
                         </div>
                         <div class="col-sm-6 col-2">
                             <div class="img-wrap"><img src="images/appointment_icon.png" src="appointment logo"></div>
-                            <a class="button">REQUEST AN APPOINTMENT</a>
+                            <a class="button" data-toggle="modal" data-target="#contact-modal">REQUEST AN APPOINTMENT</a>
                         </div>
                     </div>
                 </div>
@@ -317,7 +320,7 @@
                             <p>Exclusively for our uninsured patients.</p>
                             <p>Make easy monthly payments for your preventive care.</p>
                             <p>Save money on your treatment.</p>
-                            <a class="button">LEARN MORE</a>
+                            <a class="button" href="https://gregory-keene-dmd.illumitrac.com/#programs/" target="_blank">LEARN MORE</a>
                         </div>
                     </div>
                 </div>
@@ -331,15 +334,38 @@
                         <div class="col-sm-6 col-1">
                             <h2>Office Tour</h2>
                             <p>We look forward to meeting you and your family. Our beautiful, Inviting office is a refreshing place to relax while getting your dental work done. We welcome children too, so make an appointment today!</p>
-                            <a class="button">VIEW OFFICE TOUR</a>
+                            <a class="button" data-toggle="modal" data-target="#office-tour-modal">VIEW OFFICE TOUR</a>
                         </div>
                         <div class="col-sm-6 col-2">
-                            <img src="images/office-tour.png" alt="Office Tour Photo">
+                            <a href="#" data-target="#office-tour-modal" data-toggle="modal"><img src="images/office-tour.png" alt="Office Tour Photo"></a>
                         </div>
                     </div>
 
                 </div>
             </section>
+
+
+            <div class="modal fade tour-modal" id="office-tour-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="oc-slider" class="owl-carousel carousel-widget" data-margin="0" data-items="1" data-speed="450" data-loop="true">
+
+                            <img src="images/tour/1.jpg" alt="tour-slide-1">
+                            <img src="images/tour/2.jpg" alt="tour-slide-2">
+                            <img src="images/tour/3.jpg" alt="tour-slide-3">
+                            <img src="images/tour/4.jpg" alt="tour-slide-4">
+                            <img src="images/tour/5.jpg" alt="tour-slide-5">
+                            <img src="images/tour/6.jpg" alt="tour-slide-6">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
             <section class="services" id="services-1">
                 <div class="container">
                     <div class="center">
@@ -400,7 +426,7 @@
                             <p>The Chao Pinhole Surgical Technique uses a small needle to pierce the patients existing gum tissue. This small hole allows specialized instruments to gently loosen existing tissue and allows the gumline to expand and cover the exposed root structure.
                             </p>
                             <p>There are no grafts, sutures or incisions needed when using this new technique. It simply involves an adjustment of the patients existing gum tissues.</p>
-                            <a class="button">WATCH THE VIDEO</a>
+                            <a class="button" href="#" data-toggle="modal" data-target="#video-modal">WATCH THE VIDEO</a>
                         </div>
                         <div class="col-lg-6 col-md-12">
 
@@ -409,6 +435,19 @@
 
                 </div>
             </section>
+
+            <div class="modal fade video-modal" id="video-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rv7A_hjeXRU" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+            </div>
 
             <div class="services-3-below hidden-lg">
                 <img src="images/services/pinhole-mobile.jpg" alt="Pinhole Image">
@@ -500,9 +539,9 @@
                         <h2>New Patient Forms</h2>
                         <p>Filling out these forms will save you time when you visit.</p>
                         <div class="form-wrap">
-                            <div class="btn-wrap"><a class="button button-2">ADULT NEW PATIENT FORMS</a></div>
-                            <div class="btn-wrap"><a class="button button-2">CHILDRENS NEW PATIENT FORMS</a></div>
-                            <div class="btn-wrap"><a class="button button-2">HIPPA PRIVACY FORMS</a></div>
+                            <div class="btn-wrap"><a class="button button-2" href="images/final-forms/Adult-new-patient.pdf" target="_blank">ADULT NEW PATIENT FORMS</a></div>
+                            <div class="btn-wrap"><a class="button button-2" href="images/final-forms/Child-new-patient.pdf" target="_blank">CHILDRENS NEW PATIENT FORMS</a></div>
+                            <div class="btn-wrap"><a class="button button-2" href="images/final-forms/hippa.pdf" target="_blank">HIPPA PRIVACY FORMS</a></div>
                         </div>
                     </div>
                 </div>
@@ -514,61 +553,81 @@
                             <p>Financing available from</p>
                         </div>
                         <div class="col-xs-6 col-2">
-                            <img src="images/care-credit-footer.png" alt="Care Credit Logo">
+                            <a href="http://www.carecredit.com" target="_blank"><img src="images/care-credit-footer.png" alt="Care Credit Logo"></a>
                         </div>
 
 
                     </div>
                 </div>
-
-
             </div>
 
+            <section id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-1">
+                            <p class="p-1">Gregory D. Keene, DMD</p>
+                            <p class="p-2">255 W. South Boulder Rd.</p>
+                            <p class="p-3">Lafayette, CO 80026</p>
+                            <p class="p-4">Existing Patients: <a href="tel:+13036655586">(303) 665-5586</a></p>
+                            <p class="p-5">Fax: <a href="tel:+13037362918">(303) 736-2918</a></p>
+                            <p class="p-6"><a href="https://www.google.com/maps/place/Gregory+D.+Keene,+DMD/@39.9874125,-105.094313,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x575137cd1002b70b!8m2!3d39.9874125!4d-105.0921243" target="_blank">Click to view map &amp; directions</a></p>
+                            <a href="https://www.facebook.com/keenesmiles" class="social-icon si-colored si-facebook" target="_blank">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
 
+                            <a href="https://www.google.com/maps/place/Gregory+D.+Keene,+DMD/@39.9874125,-105.094313,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x575137cd1002b70b!8m2!3d39.9874125!4d-105.0921243" class="social-icon si-colored si-gplus" target="_blank">
+                                <i class="icon-gplus"></i>
+                                <i class="icon-gplus"></i>
+                            </a>
 
-
-            <!---- Contact Section ----->
-            <section id="contact" class="section-contact full-screen section nopadding nomargin noborder ohidden">
-                <div class="vertical-middle">
-                    <div class="container clearfix">
-                        <!-- Contact Form Overlay
-                        ============================================= -->
-                        <div id="contact-form-overlay-mini" class="clearfix">
-                            <div class="img-wrap center">
-                                <a href="#" data-scrollto="#header" data-offset="0"><img
-                                        src="images/masthead-logo.png" alt="Logo"></a>
-                            </div>
+                            <a href="https://www.yelp.com/biz/gregory-keene-dmd-lafayette " class="social-icon si-colored si-yelp" target="_blank">
+                                <i class="icon-yelp"></i>
+                                <i class="icon-yelp"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-2">
+                            <img src="images/keene-logo.svg" alt="Keene Logo">
+                            <p class="p-1">New Patient Hotline</p>
+                            <p class="p-2"><a href="tel:+18885968077">(888) 596-8077</a></p>
+                            <a class="button" data-toggle="modal" data-target="#contact-modal">REQUEST AN APPOINTMENT</a>
+                        </div>
+                        <div class="col-lg-4 col-3">
                             <div class="center">
-                                <p class="address">53 3rd Street SW<br>Huron, SD 57350</p>
-                                <a class="click-map" target="_blank"
-                                   href="">Click to view map</a></p>
-                                <p class="patient-hotline">New Patient Hotline</p>
-                                <a href="tel:+18887179818"><p class="text-phone-1">(888) 717&#8209;9818</p></a>
-                                <a class="button button-2" data-toggle="modal"
-                                   data-target="#contact-modal">REQUEST APPOINTMENT</a>
-                                <p class="patient-hotline">Existing Patients Call</p>
-                                <a href="tel:+16053523070"><p class="text-phone-2">(605) 352&#8209;3070</p></a>
+                                <h6>Office Hours</h6>
+                            </div>
+                            <div class="days">
+                                <p>Monday:</p>
+                                <p>Tuesday:</p>
+                                <p>Wednesday:</p>
+                                <p>Thursday:</p>
+                                <p>Friday:</p>
+                            </div>
+                            <div class="hours">
+                                <p>8:00am - 5:00pm</p>
+                                <p>8:00am - 5:00pm</p>
+                                <p>8:00am - 5:00pm</p>
+                                <p>8:00am - 5:00pm</p>
+                                <p>Closed</p>
                             </div>
 
-
-
-
-
-                        </div><!-- Contact Form Overlay End -->
-
+                        </div>
                     </div>
                 </div>
+            </section>
+
+
+
+
+
 
                 <!-- Google Map
                 ============================================= -->
-                <section id="google-map" class="gmap hidden-xs hidden-xxs"><h2 class=" hidden-lg hidden-md hidden-sm hidden-xshidden-print">Empty Tag</h2>
+                <section id="google-map" class="gmap"><h2 class=" hidden-lg hidden-md hidden-sm hidden-xshidden-print">Empty Tag</h2>
                 </section>
 
             </section>
-            <section class="hidden-lg hidden-md hidden-sm map-below-contact-section">
-                <a href="https://www.google.com/maps/place/Countryside+Dental/@44.3635128,-98.2173919,17z/data=!3m1!4b1!4m5!3m4!1s0x8787be86af8561f9:0x33c98a69617b8349!8m2!3d44.3633863!4d-98.2151916" target="_blank"><img class="map-below-contact" src="images/countryside-dental-map.jpg" alt="Location Map"></a>
 
-            </section>
 
 
 
@@ -592,36 +651,8 @@
 
             <div class="container clearfix">
 
-                <div class="col_half">
+                <div class="copyrights-col">
                     <span class="copyright">Copyright © <script>document.write(+new Date().getFullYear());</script> All Rights Reserved by <a class="tyson-link" href="http://www.tysonsteele.com" target="_blank">Tyson&nbsp;Steele&nbsp;Associates.</a></span>
-                </div>
-
-                <div class="col_half col_last tright">
-                    <div class="fright clearfix">
-                        <a href="https://www.facebook.com/WestsideFamilyDental" class="social-icon si-colored si-facebook" target="_blank">
-                            <i class="icon-facebook"></i>
-                            <i class="icon-facebook"></i>
-                        </a>
-
-                        <a href="https://www.google.com/search?q=westside+family+dental+Lakewood+OH&cad=h#lrd=0x8830f28f3545044f:0x1d351e8dc3182ae8,1," class="social-icon si-colored si-gplus" target="_blank">
-                            <i class="icon-gplus"></i>
-                            <i class="icon-gplus"></i>
-                        </a>
-
-                        <a href="https://twitter.com/LakewoodDDS" class="social-icon si-colored si-twitter" target="_blank">
-                            <i class="icon-twitter"></i>
-                            <i class="icon-twitter"></i>
-                        </a>
-
-                        <a href="https://www.youtube.com/user/drmichaelpap?ob=0&feature=results_main" class="social-icon si-youtube si-colored" target="_blank">
-                            <i class="icon-youtube"></i>
-                            <i class="icon-youtube"></i>
-                        </a>
-
-                    </div>
-
-                    <div class="clear"></div>
-
                 </div>
 
             </div>
@@ -836,7 +867,7 @@
 <script>
     var map;
     function initMap() {
-        var myLatLng = {lat: 29.562602, lng: -98.681717};
+        var myLatLng = {lat: 39.987275, lng: -105.093035};
         map = new google.maps.Map(document.getElementById('google-map'), {
             center: myLatLng,
             zoom: 17,
@@ -846,7 +877,7 @@
         var marker = new google.maps.Marker({
             position: myLatLng,
             map: map,
-            title: 'Aurora Family Dentistry'
+            title: 'Keene Dentistry'
         });
     }
 </script>

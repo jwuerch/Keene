@@ -1,5 +1,8 @@
 #tour {
-  padding:30px;
+  .container {
+    width:100% !important;
+  }
+  padding:50px 0;
   .row {
     display:flex;
     align-items:center;
@@ -35,5 +38,33 @@
       margin:0 auto;
       margin-bottom:30px;
     }
+    @media (max-width:500px) {
+      margin-bottom:30px;
+    }
+
   }
+}
+
+.tour-modal {
+  #oc-slider {
+    .owl-prev, .owl-next {
+      opacity:1 !important;
+      background:#22949C;
+      color:#FFF;
+      &:hover {
+        background:#1D7C83 !important;
+      }
+    }
+    .owl-prev {
+      left:-18px;
+    }
+    .owl-next {
+      right:-18px;
+    }
+  }
+  .owl-carousel .owl-dots {
+    display:none;
+  }
+
+
 }

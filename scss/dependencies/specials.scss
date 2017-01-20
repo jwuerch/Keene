@@ -17,6 +17,9 @@
     color: #FFFFFF;
     letter-spacing: -0.77px;
     line-height: 43.77px;
+    @media (max-width:767px) {
+      text-align:center;
+    }
 
   }
   .d-text {
@@ -89,7 +92,7 @@
     font-family: $muli;
     font-size: 16px;
     color: #FFFFFF;
-    line-height:18px;
+    line-height:22px;
     margin-bottom:10px;
     @media (max-width:500px) {
       font-size:18px;
@@ -135,4 +138,7 @@
   @media (max-width:500px) {
     line-height:26px;
   }
+}
+.form-control {
+  font-size:16px !important;
 }

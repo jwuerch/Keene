@@ -69,7 +69,7 @@
       margin-bottom:10px;
     }
     @media (max-width:500px) {
-      width:300px;
+      width:250px;
       font-size:16px;
     }
   }
@@ -82,6 +82,9 @@
     justify-content:center;
     align-items:center;
     font-size:16px;
+    @media (max-width:500px) {
+      width:275px;
+    }
   }
   .col-sm-6:nth-of-type(2) {
     @media (max-width:767px) {
@@ -244,6 +247,13 @@
       font-size:16px;
       margin-top:20px;
       background:#FA7801;
+      @media (max-width:500px) {
+        max-width:250px;
+        font-size:14px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
     }
   }
 }

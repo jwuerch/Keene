@@ -1,4 +1,7 @@
 #no-insurance {
+  .container {
+    width:100% !important;
+  }
   padding:100px 0;
   background:url('../images/insurance-bg.jpg');
   backround-size:cover;
@@ -19,6 +22,11 @@
     }
     .button {
       margin:0 auto;
+    }
+  }
+  @media (max-width:767px) {
+    .col-2 {
+      padding-left:10px;
     }
   }
 
@@ -63,6 +71,9 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    @media (max-width:500px) {
+      width:250px;
+    }
   }
   @media (max-width:767px) {
     h2 {

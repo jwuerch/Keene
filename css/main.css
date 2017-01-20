@@ -25894,7 +25894,7 @@ a.social-icon.si-colored {
         margin-bottom: 10px; } }
     @media (max-width: 500px) {
       .phone-slug .button {
-        width: 300px;
+        width: 250px;
         font-size: 16px; } }
 
 #phone-slug-1-mobile {
@@ -25905,6 +25905,9 @@ a.social-icon.si-colored {
     justify-content: center;
     align-items: center;
     font-size: 16px; }
+    @media (max-width: 500px) {
+      #phone-slug-1-mobile .button {
+        width: 275px; } }
   @media (max-width: 767px) {
     #phone-slug-1-mobile .col-sm-6:nth-of-type(2) {
       text-align: center;
@@ -26030,6 +26033,13 @@ a.social-icon.si-colored {
     font-size: 16px;
     margin-top: 20px;
     background: #FA7801; }
+    @media (max-width: 500px) {
+      #phone-slug-bottom .col-2 .button {
+        max-width: 250px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center; } }
 
 /** Contact Modal **/
 .form-error {
@@ -26084,6 +26094,9 @@ h4.modal-title {
     color: #FFFFFF;
     letter-spacing: -0.77px;
     line-height: 43.77px; }
+    @media (max-width: 767px) {
+      #specials h2 {
+        text-align: center; } }
   #specials .d-text {
     font-size: 16px; }
   #specials .box {
@@ -26147,7 +26160,7 @@ h4.modal-title {
     font-family: "Muli", sans-serif;
     font-size: 16px;
     color: #FFFFFF;
-    line-height: 18px;
+    line-height: 22px;
     margin-bottom: 10px; }
     @media (max-width: 500px) {
       #specials p {
@@ -26179,82 +26192,116 @@ h4.modal-title {
     #specials > div > div:nth-child(2) > div:nth-child(4) > h6 {
       line-height: 26px; } }
 
-/** CONTACT **/
-#contact-form-overlay-mini {
-  padding-top: 15px;
-  padding-bottom: 15px; }
-
-#contact img {
-  margin-bottom: 20px; }
-
-#contact p {
-  color: #6F6D6A;
-  font-size: 16px;
-  line-height: 21px; }
-
-#contact .click-map {
-  color: #846A20;
-  margin-top: -5px;
-  font-size: 16px;
-  text-decoration: underline; }
-
-#contact .text-phone-1 {
-  font-size: 36px;
-  font-weight: 900;
-  font-family: 'Lato', sans-serif;
-  color: #CBA357;
-  margin-bottom: 20px; }
-
-.device-xxs #contact .text-phone-1 {
-  font-size: 26px; }
-
-.device-xxs #contact .text-phone-2 {
-  font-size: 23px; }
-
-.device-xxs #contact .button {
-  font-size: 16px;
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-#contact .text-phone-2 {
-  font-size: 26px;
-  font-weight: 900;
-  font-family: 'Lato', sans-serif;
-  color: #CBA357; }
-
-.patient-hotline {
-  margin-bottom: 7px; }
-
-#contact .button {
-  width: 100%;
-  letter-spacing: 0;
-  font-size: 18px;
-  margin-bottom: 20px;
-  padding-top: 2px; }
-
-#contact-form-overlay-mini > div:nth-child(2) > a.click-map:hover {
-  color: #846A20; }
-
-#contact-form-overlay-mini {
-  border-radius: 12px; }
-
-#contact-form-overlay-mini > div:nth-child(2) > a:nth-child(5):hover, #contact-form-overlay-mini > div:nth-child(2) > a:nth-child(8):hover {
-  text-decoration: none; }
+.form-control {
+  font-size: 16px !important; }
 
 #contact {
-  max-height: 600px; }
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #contact .col-1 p {
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585756;
+    letter-spacing: 0;
+    line-height: 25px; }
+    #contact .col-1 p a {
+      color: #585756; }
+      #contact .col-1 p a:hover {
+        text-decoration: none; }
+  #contact .col-1, #contact .col-2, #contact .col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    @media (max-width: 1200px) {
+      #contact .col-1, #contact .col-2, #contact .col-3 {
+        padding: 20px 0; } }
+    #contact .col-1 p, #contact .col-2 p, #contact .col-3 p {
+      width: 100%;
+      text-align: center; }
+    #contact .col-1 .p-1, #contact .col-2 .p-1, #contact .col-3 .p-1 {
+      font-family: "Muli", sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: #585756;
+      letter-spacing: -0.52px; }
+    #contact .col-1 .p-2, #contact .col-2 .p-2, #contact .col-3 .p-2 {
+      margin-bottom: 0px; }
+    #contact .col-1 .p-4, #contact .col-2 .p-4, #contact .col-3 .p-4 {
+      margin-bottom: 0px; }
+    #contact .col-1 .p-6 a, #contact .col-2 .p-6 a, #contact .col-3 .p-6 a {
+      font-family: "Lato", sans-serif;
+      font-size: 20px;
+      color: #4990E2;
+      letter-spacing: 0;
+      text-decoration: underline;
+      line-height: 25px; }
+      #contact .col-1 .p-6 a:hover, #contact .col-2 .p-6 a:hover, #contact .col-3 .p-6 a:hover {
+        text-decoration: underline; }
+  #contact .col-2 img {
+    position: relative;
+    top: -35px;
+    margin-bottom: 0px; }
+    @media (max-width: 1200px) {
+      #contact .col-2 img {
+        top: -20px; } }
+    @media (max-width: 500px) {
+      #contact .col-2 img {
+        width: 80%; } }
+  #contact .col-2 .p-1 {
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: -20px;
+    color: #4D4D4D; }
+  #contact .col-2 .p-2 a {
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #4D4D4D; }
+    #contact .col-2 .p-2 a:hover {
+      text-decoration: none; }
+  #contact .col-2 .button {
+    margin-top: 20px; }
+    @media (max-width: 500px) {
+      #contact .col-2 .button {
+        width: 275px;
+        font-size: 14px; } }
+  #contact .col-3 p {
+    margin-bottom: 10px;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #585756;
+    letter-spacing: 0;
+    line-height: 38px; }
+  #contact .col-3 .center {
+    width: 100%; }
+    #contact .col-3 .center h6 {
+      font-family: "Muli", sans-serif;
+      font-size: 24px;
+      color: #585756;
+      letter-spacing: 0;
+      line-height: 25px; }
+  #contact .col-3 .days p {
+    text-align: left; }
+  #contact .col-3 .hours p {
+    text-align: left;
+    margin-left: 25px; }
 
-.device-xxs #contact-form-overlay-mini {
-  padding-left: 15px;
-  padding-right: 15px; }
-
-.device-xs #contact-form-overlay-mini, .device-xxs #contact-form-overlay-mini {
-  box-shadow: none; }
-
-#google-map {
-  height: 100%;
-  border-bottom: 5px solid #FFF; }
+#copyrights {
+  background: #0F417C; }
+  #copyrights .copyrights-col p {
+    text-align: center; }
+  #copyrights .copyright {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
 
 #slider, .swiper-wrapper, .swiper-slide, .swiper-container, .slider-parallax-inner {
   max-height: 800px; }
@@ -26409,7 +26456,8 @@ h4.modal-title {
   background: rgba(255, 255, 255, 0.3);
   border-bottom: 2px solid #FFFFFF;
   border-top: 2px solid #FFFFFF;
-  border-radius: 8px; }
+  border-radius: 8px;
+  padding: 20px; }
   @media (max-width: 1200px) {
     #slide-3 .text-block {
       padding: 20px 40px; } }
@@ -26486,7 +26534,7 @@ h4.modal-title {
     align-items: center; }
 
 #reviews {
-  padding: 50px;
+  padding: 50px 0;
   background: url("../images/reviews-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -26530,6 +26578,8 @@ h4.modal-title {
   background-repeat: no-repeat;
   background-position: 0% 0%;
   padding-bottom: 300px; }
+  #no-insurance .container {
+    width: 100% !important; }
   @media (max-width: 1400px) {
     #no-insurance .col-2 {
       padding-left: 100px; } }
@@ -26542,6 +26592,9 @@ h4.modal-title {
         padding-left: 0; }
       #no-insurance .button {
         margin: 0 auto; } }
+  @media (max-width: 767px) {
+    #no-insurance .col-2 {
+      padding-left: 10px; } }
   #no-insurance h2 {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
@@ -26578,6 +26631,9 @@ h4.modal-title {
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media (max-width: 500px) {
+      #no-insurance .button {
+        width: 250px; } }
   @media (max-width: 767px) {
     #no-insurance h2 {
       font-size: 55px; }
@@ -26598,7 +26654,9 @@ h4.modal-title {
       font-size: 18px; } }
 
 #tour {
-  padding: 30px; }
+  padding: 50px 0; }
+  #tour .container {
+    width: 100% !important; }
   #tour .row {
     display: flex;
     align-items: center;
@@ -26628,6 +26686,25 @@ h4.modal-title {
         font-size: 16px;
         margin: 0 auto;
         margin-bottom: 30px; } }
+    @media (max-width: 500px) {
+      #tour .button {
+        margin-bottom: 30px; } }
+
+.tour-modal #oc-slider .owl-prev, .tour-modal #oc-slider .owl-next {
+  opacity: 1 !important;
+  background: #22949C;
+  color: #FFF; }
+  .tour-modal #oc-slider .owl-prev:hover, .tour-modal #oc-slider .owl-next:hover {
+    background: #1D7C83 !important; }
+
+.tour-modal #oc-slider .owl-prev {
+  left: -18px; }
+
+.tour-modal #oc-slider .owl-next {
+  right: -18px; }
+
+.tour-modal .owl-carousel .owl-dots {
+  display: none; }
 
 .services {
   padding: 200px 0; }
@@ -26670,6 +26747,12 @@ h4.modal-title {
     letter-spacing: 0;
     top: -200px;
     position: relative; }
+    @media (max-width: 1200px) {
+      #services-1 .title {
+        top: 0; } }
+    @media (max-width: 500px) {
+      #services-1 .title {
+        font-size: 48px; } }
 
 #services-2 {
   background: url("../images/services/implants.jpg");
@@ -26767,7 +26850,7 @@ h4.modal-title {
   text-align: center; }
 
 #patient-forms {
-  padding: 30px 0;
+  padding: 50px 0;
   background: #88B13B; }
   #patient-forms h2 {
     font-family: "Oswald", sans-serif;
@@ -26805,7 +26888,9 @@ h4.modal-title {
         justify-content: center; } }
   @media (max-width: 991px) {
     #patient-forms .btn-wrap {
-      width: 100%; } }
+      width: 100%;
+      display: flex;
+      justify-content: center; } }
   #patient-forms .button-2 {
     background: #FFF;
     color: #27979E;
@@ -26816,6 +26901,9 @@ h4.modal-title {
     text-align: center;
     display: flex;
     justify-content: center; }
+    #patient-forms .button-2:hover {
+      background: #E1E1E1;
+      text-shadow: none; }
     @media (max-width: 1200px) {
       #patient-forms .button-2 {
         font-size: 14px;
@@ -26825,6 +26913,9 @@ h4.modal-title {
       #patient-forms .button-2 {
         width: 300px;
         margin-bottom: 20px; } }
+    @media (max-width: 500px) {
+      #patient-forms .button-2 {
+        width: 275px; } }
 
 .care-credit {
   display: flex;
@@ -26852,6 +26943,10 @@ h4.modal-title {
     @media (max-width: 500px) {
       .care-credit p {
         line-height: 20px !important; } }
+
+@media (max-width: 500px) {
+  .col-1 p, .col-2 p, .col-3 p {
+    font-size: 16px !important; } }
 
 h1 {
   font-size: 64px; }
