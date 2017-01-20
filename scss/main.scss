@@ -1,0 +1,83 @@
+// Canvas Dependencies //
+$muli: 'Muli', sans-serif;
+$oswald: 'Oswald', sans-serif;
+
+@import "dependencies/bootstrap.scss";
+@import "dependencies/style.scss";
+@import "dependencies/swiper.scss";
+@import "../css/font-icons";
+@import "dependencies/animate.scss";
+@import "dependencies/responsive.scss";
+@import "dependencies/navbar.scss";
+@import "dependencies/footer.scss";
+@import "dependencies/phone-slug.scss";
+@import "dependencies/contact-modal.scss";
+@import "dependencies/specials.scss";
+@import "dependencies/location-section.scss";
+@import "dependencies/slides.scss";
+@import "dependencies/meet-the-team.scss";
+
+
+// End Canvas Dependencies //
+
+
+// Variables to define first //
+
+
+
+// CSS //
+
+body {
+}
+
+h1 {
+  font-size:64px;
+}
+
+h2 {
+  font-size:48px;
+}
+
+h3 {
+  font-size:36px;
+}
+
+h4 {
+  font-size:28px;
+}
+
+h5 {
+  font-size:24px;
+}
+
+h6 {
+  font-size:20px;
+}
+
+p {
+  font-size:18px;
+}
+
+.button {
+  padding-top:2px;
+  text-transform:uppercase;
+  background: #FA7801;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  border-radius: 3px;
+  border:none;
+  /* LEARN MORE: */
+  font-family: $muli;
+  font-weight:700;
+  font-size: 18px;
+  color: #FFFFFF;
+
+
+  &:hover {
+    background:#DB6901;
+  }
+}
+.button:hover {
+}
+.content-wrap {
+  padding:0;
+}

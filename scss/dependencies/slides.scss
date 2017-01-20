@@ -1,0 +1,187 @@
+#slider, .swiper-wrapper, .swiper-slide, .swiper-container, .slider-parallax-inner {
+  max-height:800px;
+  @media (max-width:1200px) {
+    max-height:700px;
+  }
+}
+
+#slide-1 {
+  background-position:0% 0%;
+  @media (max-width:1400px) {
+    background-position-x:25%;
+  }
+  .slider-caption {
+  }
+  h2 {
+    color:#656565;
+    font-family:$muli;
+    font-size:48.6px;
+    font-weight:300;
+    margin-bottom:10px;
+  }
+  h3 {
+    color:#3F5F8D;
+    font-size:76px;
+    font-family:$oswald;
+    font-weight:400;
+    text-transform:uppercase;
+    margin-bottom:0;
+    line-height:90px;
+  }
+  .right {
+    color:#88B13B;
+  }
+  .family {
+    color:#22949C;
+  }
+  .text-wrap {
+    background: rgba(255,255,255,0.30);
+    border-bottom: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    border-radius: 8px;
+    width:100%;
+    overflow:visible;
+    padding:30px 0;
+    padding-right:20px;
+  }
+  .new-patients {
+    text-align:center;
+    margin-top:40px;
+    h6 {
+      font-family: $muli;
+      font-size: 24px;
+      color: #656565;
+      line-height: 24px;
+    }
+  }
+  @media (max-width:1200px) {
+    h2 {
+      font-size:45px;
+
+    }
+    h3 {
+      font-size:66px;
+      line-height:75px;
+    }
+  }
+}
+
+#slide-2 {
+  h2 {
+    color:#0F417C;
+    font-weight:400;
+    font-size:47.8px;
+    font-family:$oswald;
+    margin-bottom:10px;
+    .green {
+      color:#3F8B33;
+    }
+    @media (max-width:1200px) {
+      font-size:32px;
+    }
+  }
+  .icon-star3 {
+    color:#FFD900;
+    font-size:60px;
+  }
+  .star-set {
+    text-align:center;
+  }
+  p {
+    font-family: $muli;
+    font-weight:400;
+    font-size: 24px;
+    color: #656565;
+    letter-spacing: -0.21px;
+    line-height: 35px;
+    text-align:center;
+  }
+  .author {
+    font-weight:700;
+  }
+  .btn-wrap {
+    text-align:center;
+    margin-top:50px;
+  }
+  .text-block {
+    background: rgba(255,255,255,0.30);
+    border-bottom: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding:20px;
+  }
+  .slider-caption {
+    max-width:750px;
+    right:-40px;
+    @media (max-width:1200px) {
+      text-align:center;
+      padding:20px 130px;
+      .icon-star3 {
+        font-size:44px;
+      }
+      p {
+        font-size:20px;
+      }
+    }
+  }
+}
+#slide-3 {
+  h2 {
+    font-family: $oswald;
+    font-weight:400;
+    font-size: 82.8px;
+    color: #0F417C;
+    letter-spacing: 1.33px;
+    margin-bottom:10px;
+    @media (max-width:1200px) {
+      font-size:58px;
+
+    }
+  }
+  .green {
+    color:#3F8B33;
+  }
+  h5 {
+    font-family: $muli;
+    font-weight:400;
+    font-size: 39.2px;
+    color: #4D4D4D;
+    letter-spacing: -0.24px;
+    line-height: 46.79px;
+    @media (max-width:1200px) {
+      font-size:32px;
+    }
+  }
+  p {
+    font-family: $muli;
+    font-weight:700;
+    font-size: 32px;
+    color: #4D4D4D;
+    letter-spacing: -0.22px;
+    line-height: 40px;
+    @media (max-width:1200px) {
+      font-size:28px;
+    }
+  }
+  .btn-wrap {
+    text-align:center;
+    margin-top:50px;
+    .button {
+      width:250px;
+    }
+  }
+  .text-block {
+    background: rgba(255,255,255,0.30);
+    border-bottom: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    border-radius: 8px;
+    @media (max-width:1200px) {
+      padding:20px 40px;
+    }
+
+  }
+}
+
+#primary-menu-trigger {
+  font-size:25px;
+}

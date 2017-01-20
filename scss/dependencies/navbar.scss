@@ -1,0 +1,41 @@
+.navbar li > a {
+  font-family:$muli;
+  color:#707070;
+  font-size:20px;
+  @media (max-width:1250px) {
+    font-size:18px;
+    padding-left:10px;
+    padding-right:10px;
+  }
+  @media (max-width:1075px) {
+    font-size:16px;
+  }
+}
+.navbar > li:nth-child(1) > a {
+  font-weight:400;
+  color:#1B61A7;
+}
+.navbar > li:nth-child(2) > a {
+  color:#4D9A42;
+}
+.navbar > li:nth-child(3) > a {
+  color:#22949C;
+}
+#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+    height:100px;
+}
+
+
+#primary-menu ul li > a {
+  padding-top:39px;
+  padding-bottom:39px;
+  @media (max-width:1250px) {
+    padding-left:8px;
+    padding-right:8px;
+  }
+}
+
+#logo {
+  margin-right:0;
+  padding-right:15px;
+}

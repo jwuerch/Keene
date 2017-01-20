@@ -1,0 +1,61 @@
+#meet-the-team {
+  background:url('../images/bio.jpg');
+  background-size:contain;
+  background-repeat:no-repeat;
+  padding:50px 0;
+  background-position:100% 100%;
+  @media (max-width:1400px) {
+    background-position-x:120%;
+  }
+  h2 {
+    font-family: $oswald;
+    font-weight:400;
+    font-size: 42px;
+    color: #1B61A7;
+    letter-spacing: -0.57px;
+    margin-bottom:100px;
+    @media (max-width:1200px) {
+      margin-bottom:0;
+    }
+  }
+  .col-sm-7 {
+    text-align:left;
+  }
+  h3 {
+    font-family: $muli;
+    font-weight:400;
+    font-size: 32px;
+    color: #585756;
+    letter-spacing: -0.69px;
+    margin-bottom:0;
+    font-weight:400;
+  }
+  p {
+    font-family: $muli;
+    font-weight:400;
+    font-size: 16px;
+    color: #585756;
+    letter-spacing: -0.21px;
+
+  }
+}
+@media (max-width:1300px) {
+  #meet-the-team p {
+    padding-right:30px;
+  }
+}
+
+@media (max-width:1200px) {
+  #meet-the-team {
+    background:#FFF;
+    p {
+      margin-bottom:20px;
+    }
+  }
+}
+
+.team-below {
+
+  img {
+  }
+}
