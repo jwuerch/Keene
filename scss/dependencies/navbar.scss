@@ -39,3 +39,8 @@
   margin-right:0;
   padding-right:15px;
 }
+
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+  padding-top:39px;
+  padding-bottom:39px;
+}

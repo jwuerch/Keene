@@ -25786,6 +25786,10 @@ Copyright (c) 2014 Daniel Eden
   margin-right: 0;
   padding-right: 15px; }
 
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+  padding-top: 39px;
+  padding-bottom: 39px; }
+
 #copyrights {
   background: grey; }
 
@@ -26727,6 +26731,127 @@ h4.modal-title {
     color: #545454;
     margin-bottom: 0;
     letter-spacing: 0.3px; }
+
+/* Service Modals */
+#services a:hover {
+  text-decoration: none; }
+
+.service-modal .modal-body, .service-modal .modal-header {
+  background: #FFF; }
+
+.service-modal h4 {
+  color: #545454;
+  font-family: "Muli", sans-serif; }
+
+.service-modal .modal-header {
+  border-radius: 3px 3px 0px 0px; }
+
+.service-modal .modal-body {
+  border-radius: 0px 0px 3px 3px; }
+
+.service-modal-text p {
+  line-height: 25px;
+  font-size: 16px;
+  margin-bottom: 15px; }
+
+.service-modal img {
+  margin-bottom: 10px; }
+
+.service-modal .modal-dialog {
+  background: #FFF !important; }
+
+.modal-dialog {
+  background: #FFF; }
+
+.service-modal .img-wrap {
+  text-align: center; }
+
+#patient-forms {
+  padding: 30px 0;
+  background: #88B13B; }
+  #patient-forms h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #4D6E98;
+    letter-spacing: 0;
+    margin-bottom: 0; }
+    @media (max-width: 991px) {
+      #patient-forms h2 {
+        font-size: 42px; } }
+    @media (max-width: 500px) {
+      #patient-forms h2 {
+        font-size: 32px; } }
+  #patient-forms p {
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #585756;
+    letter-spacing: -0.34px;
+    margin-bottom: 50px; }
+    @media (max-width: 991px) {
+      #patient-forms p {
+        font-size: 21px;
+        line-height: 25px; } }
+    @media (max-width: 500px) {
+      #patient-forms p {
+        font-size: 19px; } }
+  #patient-forms .form-wrap {
+    display: flex;
+    justify-content: space-between; }
+    @media (max-width: 991px) {
+      #patient-forms .form-wrap {
+        flex-wrap: wrap;
+        justify-content: center; } }
+  @media (max-width: 991px) {
+    #patient-forms .btn-wrap {
+      width: 100%; } }
+  #patient-forms .button-2 {
+    background: #FFF;
+    color: #27979E;
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #22949C;
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+    @media (max-width: 1200px) {
+      #patient-forms .button-2 {
+        font-size: 14px;
+        max-width: 320px;
+        text-align: center; } }
+    @media (max-width: 991px) {
+      #patient-forms .button-2 {
+        width: 300px;
+        margin-bottom: 20px; } }
+
+.care-credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F4F7F7;
+  padding: 40px 0; }
+  .care-credit .col-1, .care-credit .col-2 {
+    display: flex;
+    align-items: center; }
+  .care-credit .col-1 {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; }
+  .care-credit p {
+    text-align: right;
+    margin-bottom: 0;
+    font-family: "Muli", sans-serif;
+    font-size: 24px;
+    color: #585756;
+    letter-spacing: -0.34px; }
+    @media (max-width: 767px) {
+      .care-credit p {
+        font-size: 18px; } }
+    @media (max-width: 500px) {
+      .care-credit p {
+        line-height: 20px !important; } }
 
 h1 {
   font-size: 64px; }

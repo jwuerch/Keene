@@ -8,7 +8,8 @@
   background:#FFF;
 }
 .service-modal h4 {
-  color:#768E44;
+  color:#545454;
+  font-family:$muli;
 }
 .service-modal .modal-header {
   border-radius:3px 3px 0px 0px;
@@ -23,4 +24,15 @@
 }
 .service-modal img {
   margin-bottom:10px;
+}
+
+.service-modal .modal-dialog {
+  background:#FFF !important;
+}
+.modal-dialog {
+  background:#FFF;
+}
+
+.service-modal .img-wrap {
+  text-align:center;
 }
