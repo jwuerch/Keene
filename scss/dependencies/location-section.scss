@@ -17,6 +17,38 @@
       }
     }
 
+
+  }
+  .col-1 {
+    .p-7 {
+      font-family: $muli;
+      font-weight:700;
+      font-size: 24px;
+      margin-bottom:-20px;
+      color: #4D4D4D;
+      margin-bottom:10px;
+    }
+    .p-8 a {
+      font-family: $muli;
+      font-weight:700;
+      font-size: 36px;
+      color: #4D4D4D;
+      &:hover {
+        text-decoration:none;
+      }
+    }
+    .p-8 {
+      @media (max-width:1200px) {
+        margin-bottom:15px;
+      }
+    }
+    .button {
+      @media (max-width:1200px) {
+        margin-bottom:20px;
+        display:flex;
+        align-items:center;
+      }
+    }
   }
   .col-1, .col-2, .col-3 {
     display:flex;
@@ -55,6 +87,10 @@
         text-decoration:underline;
       }
     }
+  }
+  .col-4 {
+    display:flex;
+    justify-content:center;
   }
   .col-2 {
     img {

@@ -3,9 +3,9 @@
   background-size:contain;
   background-repeat:no-repeat;
   padding:50px 0;
-  background-position:100% 100%;
+  background-position:108% 100%;
   @media (max-width:1400px) {
-    background-position-x:120%;
+    background-position-x:125%;
   }
   h2 {
     font-family: $oswald;
@@ -29,6 +29,9 @@
     letter-spacing: -0.69px;
     margin-bottom:0;
     font-weight:400;
+  }
+  h5 {
+    font-size:21px;
   }
   p {
     font-family: $muli;
@@ -58,6 +61,14 @@
 .team-below {
 
   img {
+    @media (max-width:1200px) {
+      position:relative;
+      right:-50px;
+    }
+    @media (max-width:767px) {
+      right:-35px;
+    }
+
   }
 }
 @media (max-width:767px) {

@@ -25752,14 +25752,25 @@ Copyright (c) 2014 Daniel Eden
   font-family: "Muli", sans-serif;
   color: #707070;
   font-size: 20px; }
-  @media (max-width: 1250px) {
+  @media (max-width: 1420px) {
     .navbar li > a {
       font-size: 18px;
       padding-left: 10px;
       padding-right: 10px; } }
-  @media (max-width: 1075px) {
+  @media (max-width: 1320px) {
     .navbar li > a {
       font-size: 16px; } }
+  @media (max-width: 1090px) {
+    .navbar li > a {
+      font-size: 14px; } }
+
+.device-md #header.full-header .container, .device-lg #header.full-header .container {
+  padding-right: 0 !important; }
+
+@media (max-width: 1320px) {
+  #primary-menu ul li > a {
+    padding-left: 8px;
+    padding-right: 8px; } }
 
 .navbar > li:nth-child(1) > a {
   font-weight: 400;
@@ -25782,13 +25793,13 @@ Copyright (c) 2014 Daniel Eden
       padding-left: 8px;
       padding-right: 8px; } }
 
-#logo {
-  margin-right: 0;
-  padding-right: 15px; }
-
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top: 39px;
   padding-bottom: 39px; }
+
+#header.full-header #logo {
+  padding-right: 0;
+  margin-right: 10px; }
 
 #copyrights {
   background: grey; }
@@ -26086,7 +26097,7 @@ h4.modal-title {
   background-repeat: no-repeat; }
   @media (max-width: 1200px) {
     #specials {
-      background: #354253; } }
+      background: #4d5a41; } }
   #specials h2 {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
@@ -26172,10 +26183,12 @@ h4.modal-title {
   #specials .border-top {
     border-top: 2px solid #979797;
     padding-top: 30px; }
+  #specials .box-1 {
+    background: #22949C; }
   #specials .box-2 {
-    background: #4A90E2; }
+    background: #88B13B; }
   #specials .box-3 {
-    background: #7D4E79; }
+    background: #2481DE; }
   @media (max-width: 767px) {
     #specials .box-wrap {
       width: 100%;
@@ -26211,6 +26224,28 @@ h4.modal-title {
       color: #585756; }
       #contact .col-1 p a:hover {
         text-decoration: none; }
+  #contact .col-1 .p-7 {
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: -20px;
+    color: #4D4D4D;
+    margin-bottom: 10px; }
+  #contact .col-1 .p-8 a {
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #4D4D4D; }
+    #contact .col-1 .p-8 a:hover {
+      text-decoration: none; }
+  @media (max-width: 1200px) {
+    #contact .col-1 .p-8 {
+      margin-bottom: 15px; } }
+  @media (max-width: 1200px) {
+    #contact .col-1 .button {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center; } }
   #contact .col-1, #contact .col-2, #contact .col-3 {
     display: flex;
     justify-content: center;
@@ -26241,6 +26276,9 @@ h4.modal-title {
       line-height: 25px; }
       #contact .col-1 .p-6 a:hover, #contact .col-2 .p-6 a:hover, #contact .col-3 .p-6 a:hover {
         text-decoration: underline; }
+  #contact .col-4 {
+    display: flex;
+    justify-content: center; }
   #contact .col-2 img {
     position: relative;
     top: -35px;
@@ -26470,10 +26508,10 @@ h4.modal-title {
   background-size: contain;
   background-repeat: no-repeat;
   padding: 50px 0;
-  background-position: 100% 100%; }
+  background-position: 108% 100%; }
   @media (max-width: 1400px) {
     #meet-the-team {
-      background-position-x: 120%; } }
+      background-position-x: 125%; } }
   #meet-the-team h2 {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
@@ -26494,6 +26532,8 @@ h4.modal-title {
     letter-spacing: -0.69px;
     margin-bottom: 0;
     font-weight: 400; }
+  #meet-the-team h5 {
+    font-size: 21px; }
   #meet-the-team p {
     font-family: "Muli", sans-serif;
     font-weight: 400;
@@ -26510,6 +26550,15 @@ h4.modal-title {
     background: #FFF; }
     #meet-the-team p {
       margin-bottom: 20px; } }
+
+@media (max-width: 1200px) {
+  .team-below img {
+    position: relative;
+    right: -50px; } }
+
+@media (max-width: 767px) {
+  .team-below img {
+    right: -35px; } }
 
 @media (max-width: 767px) {
   #meet-the-team h2 {
@@ -26539,8 +26588,6 @@ h4.modal-title {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
-  #reviews .container {
-    width: 100%; }
   #reviews h2 {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
@@ -26595,6 +26642,9 @@ h4.modal-title {
   @media (max-width: 767px) {
     #no-insurance .col-2 {
       padding-left: 10px; } }
+  @media (max-width: 480px) {
+    #no-insurance {
+      padding-bottom: 0; } }
   #no-insurance h2 {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
@@ -26654,6 +26704,7 @@ h4.modal-title {
       font-size: 18px; } }
 
 #tour {
+  background: #FAFAFA;
   padding: 50px 0; }
   #tour .row {
     display: flex;
@@ -26736,7 +26787,8 @@ h4.modal-title {
 #services-1 {
   background: url("../images/services/cosmetic.jpg");
   background-position-x: 100%;
-  background-size: cover; }
+  background-size: cover;
+  border-top: 1px solid #eee; }
   #services-1 .title {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
@@ -26847,9 +26899,12 @@ h4.modal-title {
 .service-modal .img-wrap {
   text-align: center; }
 
+#sedation .button-wrap {
+  text-align: center; }
+
 #patient-forms {
   padding: 50px 0;
-  background: #88B13B; }
+  background: #cfdfb0; }
   #patient-forms h2 {
     font-family: "Oswald", sans-serif;
     font-weight: 400;

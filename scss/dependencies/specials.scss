@@ -8,7 +8,7 @@
   background-position-y:100px;
   background-repeat:no-repeat;
   @media (max-width:1200px) {
-    background:#354253;
+    background:#4d5a41;
   }
   h2 {
     font-family: $oswald;
@@ -109,11 +109,14 @@
     padding-top:30px;
 
   }
+  .box-1 {
+    background:#22949C;
+  }
   .box-2 {
-    background:#4A90E2;
+    background:#88B13B;
   }
   .box-3 {
-    background:#7D4E79;
+    background:#2481DE;
   }
   .box-wrap {
     @media (max-width:767px) {
